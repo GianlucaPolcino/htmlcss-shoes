@@ -59,8 +59,12 @@ nav ul li a, nav ul li a:visited{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 28px;
+    font-size: 150%;
     text-align: center;
+}
+
+.img-text img{
+    width: 100%;
 }
 
 .img-text.first, .img-text.second{
