@@ -27,7 +27,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    padding: 30px;
+    padding: 18px;
     margin-right: 20px;
     background-color: white;
     border-radius: 50%;
@@ -35,6 +35,10 @@ nav ul li{
     height:50px;
     cursor: pointer;
     
+}
+
+nav ul li:hover{
+    box-shadow: 2px 2px black;
 }
 
 nav ul li a, nav ul li a:visited{
