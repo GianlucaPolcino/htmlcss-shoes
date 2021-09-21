@@ -61,7 +61,7 @@ nav ul li a, nav ul li a:visited{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150%;
+    font-size: 2vw;
     text-align: center;
 }
 
