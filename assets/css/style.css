@@ -3,3 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    z-index: 500;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    line-height: 100%;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+    
+}
+
+.container{
+    position: relative;
+}
+
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    text-align: center;
+}
+
+.img-text.first, .img-text.second{
+    color: yellow;
+}
+
+.img-text.third{
+    color: green;
+}
+
+#shoe1{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+
+#shoe2{
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+}
+
+#shoe3{
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+}
